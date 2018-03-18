@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+<im src="school-supplies.jpg">
+  <h1 class="title">Javascript Calculator</h1>
+  <div id="calculator">
+    <form>
+      <input type="text" id="screen" disabled>
+      <br>
+      <input type="button" value="C" id="keys" onclick="addtoScreen('c')">
+      <input type="button" value="CE" id="keys" onclick="backspac()">
+      <input type="button" value="x^2" id="keys" onclick="power()">
+      <input type="button" value="+" id="keys" onclick="addtoScreen('+')">
+      <br>
+      <input type="button" value="7" id="keys" onclick="addtoScreen('7')">
+      <input type="button" value="8" id="keys" onclick="addtoScreen('8')">
+      <input type="button" value="9" id="keys" onclick="addtoScreen('9')">
+      <input type="button" value="-" id="keys" onclick="addtoScreen('-')">
+      <br>
+      <input type="button" value="4" id="keys" onclick="addtoScreen('4')">
+      <input type="button" value="5" id="keys" onclick="addtoScreen('5')">
+      <input type="button" value="6" id="keys" onclick="addtoScreen('6')">
+      <input type="button" value="*" id="keys" onclick="addtoScreen('*')">
+      <br>   
+      <input type="button" value="1" id="keys" onclick="addtoScreen('1')">
+      <input type="button" value="2" id="keys" onclick="addtoScreen('2')">
+      <input type="button" value="3" id="keys" onclick="addtoScreen('3')">
+      <input type="button" value="/" id="keys" onclick="addtoScreen('/')">
+      <br>
+      <input type="button" value="0" id="keys" onclick="addtoScreen('0')">
+      <input type="button" value="." id="keys" onclick="addtoScreen('.')">
+      <input type="button" value="=" id="equal" onclick="total()">
+    </form>
+    <h3>JS Calculator</h3>
+  </div>
+    <div id="credits" class="text-center">
+    <a href="https://www.youtube.com/watch?v=Jj9-194bKa0&list=PLcwcsiRRNFZVH-i-hXvZ0gja8OwCAQw2g" target="blank"><h5>Javascript Calculator following Mark Snow's Youtube</h5></a>
+    <a href="https://www.freepik.com/free-photos-vectors/business">Business vector created by Onlyyouqj - Freepik.com</a></div>
+   <script type="text/javascript" src="app.js"></script> 
+</body>
+</html>
